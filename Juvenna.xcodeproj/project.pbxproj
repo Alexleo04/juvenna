@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40A8747250AA3F600364E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A8746250AA3F600364E0F /* AppDelegate.swift */; };
+		F40A8749250AA3F600364E0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A8748250AA3F600364E0F /* ContentView.swift */; };
+		F40A874B250AA3FA00364E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40A874A250AA3FA00364E0F /* Assets.xcassets */; };
+		F40A874E250AA3FA00364E0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40A874D250AA3FA00364E0F /* Preview Assets.xcassets */; };
+		F40A8751250AA3FA00364E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40A874F250AA3FA00364E0F /* Main.storyboard */; };
+		F40A875D250AA3FA00364E0F /* JuvennaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A875C250AA3FA00364E0F /* JuvennaTests.swift */; };
+		F40A8768250AA3FA00364E0F /* JuvennaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A8767250AA3FA00364E0F /* JuvennaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40A8759250AA3FA00364E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40A873B250AA3F600364E0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40A8742250AA3F600364E0F;
+			remoteInfo = Juvenna;
+		};
+		F40A8764250AA3FA00364E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40A873B250AA3F600364E0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40A8742250AA3F600364E0F;
+			remoteInfo = Juvenna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40A8743250AA3F600364E0F /* Juvenna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juvenna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40A8746250AA3F600364E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F40A8748250AA3F600364E0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F40A874A250AA3FA00364E0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40A874D250AA3FA00364E0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F40A8750250AA3FA00364E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40A8752250AA3FA00364E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40A8753250AA3FA00364E0F /* Juvenna.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Juvenna.entitlements; sourceTree = "<group>"; };
+		F40A8758250AA3FA00364E0F /* JuvennaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuvennaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40A875C250AA3FA00364E0F /* JuvennaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuvennaTests.swift; sourceTree = "<group>"; };
+		F40A875E250AA3FA00364E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40A8763250AA3FA00364E0F /* JuvennaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuvennaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40A8767250AA3FA00364E0F /* JuvennaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuvennaUITests.swift; sourceTree = "<group>"; };
+		F40A8769250AA3FA00364E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40A8740250AA3F600364E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40A8755250AA3FA00364E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40A8760250AA3FA00364E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40A873A250AA3F600364E0F = {
+			isa = PBXGroup;
+			children = (
+				F40A8745250AA3F600364E0F /* Juvenna */,
+				F40A875B250AA3FA00364E0F /* JuvennaTests */,
+				F40A8766250AA3FA00364E0F /* JuvennaUITests */,
+				F40A8744250AA3F600364E0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40A8744250AA3F600364E0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40A8743250AA3F600364E0F /* Juvenna.app */,
+				F40A8758250AA3FA00364E0F /* JuvennaTests.xctest */,
+				F40A8763250AA3FA00364E0F /* JuvennaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40A8745250AA3F600364E0F /* Juvenna */ = {
+			isa = PBXGroup;
+			children = (
+				F40A8746250AA3F600364E0F /* AppDelegate.swift */,
+				F40A8748250AA3F600364E0F /* ContentView.swift */,
+				F40A874A250AA3FA00364E0F /* Assets.xcassets */,
+				F40A874F250AA3FA00364E0F /* Main.storyboard */,
+				F40A8752250AA3FA00364E0F /* Info.plist */,
+				F40A8753250AA3FA00364E0F /* Juvenna.entitlements */,
+				F40A874C250AA3FA00364E0F /* Preview Content */,
+			);
+			path = Juvenna;
+			sourceTree = "<group>";
+		};
+		F40A874C250AA3FA00364E0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F40A874D250AA3FA00364E0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F40A875B250AA3FA00364E0F /* JuvennaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40A875C250AA3FA00364E0F /* JuvennaTests.swift */,
+				F40A875E250AA3FA00364E0F /* Info.plist */,
+			);
+			path = JuvennaTests;
+			sourceTree = "<group>";
+		};
+		F40A8766250AA3FA00364E0F /* JuvennaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40A8767250AA3FA00364E0F /* JuvennaUITests.swift */,
+				F40A8769250AA3FA00364E0F /* Info.plist */,
+			);
+			path = JuvennaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40A8742250AA3F600364E0F /* Juvenna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40A876C250AA3FA00364E0F /* Build configuration list for PBXNativeTarget "Juvenna" */;
+			buildPhases = (
+				F40A873F250AA3F600364E0F /* Sources */,
+				F40A8740250AA3F600364E0F /* Frameworks */,
+				F40A8741250AA3F600364E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juvenna;
+			productName = Juvenna;
+			productReference = F40A8743250AA3F600364E0F /* Juvenna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40A8757250AA3FA00364E0F /* JuvennaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40A876F250AA3FA00364E0F /* Build configuration list for PBXNativeTarget "JuvennaTests" */;
+			buildPhases = (
+				F40A8754250AA3FA00364E0F /* Sources */,
+				F40A8755250AA3FA00364E0F /* Frameworks */,
+				F40A8756250AA3FA00364E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40A875A250AA3FA00364E0F /* PBXTargetDependency */,
+			);
+			name = JuvennaTests;
+			productName = JuvennaTests;
+			productReference = F40A8758250AA3FA00364E0F /* JuvennaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40A8762250AA3FA00364E0F /* JuvennaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40A8772250AA3FA00364E0F /* Build configuration list for PBXNativeTarget "JuvennaUITests" */;
+			buildPhases = (
+				F40A875F250AA3FA00364E0F /* Sources */,
+				F40A8760250AA3FA00364E0F /* Frameworks */,
+				F40A8761250AA3FA00364E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40A8765250AA3FA00364E0F /* PBXTargetDependency */,
+			);
+			name = JuvennaUITests;
+			productName = JuvennaUITests;
+			productReference = F40A8763250AA3FA00364E0F /* JuvennaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40A873B250AA3F600364E0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Aleksey Leonov";
+				TargetAttributes = {
+					F40A8742250AA3F600364E0F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F40A8757250AA3FA00364E0F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F40A8742250AA3F600364E0F;
+					};
+					F40A8762250AA3FA00364E0F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F40A8742250AA3F600364E0F;
+					};
+				};
+			};
+			buildConfigurationList = F40A873E250AA3F600364E0F /* Build configuration list for PBXProject "Juvenna" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40A873A250AA3F600364E0F;
+			productRefGroup = F40A8744250AA3F600364E0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40A8742250AA3F600364E0F /* Juvenna */,
+				F40A8757250AA3FA00364E0F /* JuvennaTests */,
+				F40A8762250AA3FA00364E0F /* JuvennaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40A8741250AA3F600364E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40A8751250AA3FA00364E0F /* Main.storyboard in Resources */,
+				F40A874E250AA3FA00364E0F /* Preview Assets.xcassets in Resources */,
+				F40A874B250AA3FA00364E0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40A8756250AA3FA00364E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40A8761250AA3FA00364E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40A873F250AA3F600364E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40A8749250AA3F600364E0F /* ContentView.swift in Sources */,
+				F40A8747250AA3F600364E0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40A8754250AA3FA00364E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40A875D250AA3FA00364E0F /* JuvennaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40A875F250AA3FA00364E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40A8768250AA3FA00364E0F /* JuvennaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40A875A250AA3FA00364E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40A8742250AA3F600364E0F /* Juvenna */;
+			targetProxy = F40A8759250AA3FA00364E0F /* PBXContainerItemProxy */;
+		};
+		F40A8765250AA3FA00364E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40A8742250AA3F600364E0F /* Juvenna */;
+			targetProxy = F40A8764250AA3FA00364E0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F40A874F250AA3FA00364E0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40A8750250AA3FA00364E0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40A876A250AA3FA00364E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40A876B250AA3FA00364E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F40A876D250AA3FA00364E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Juvenna/Juvenna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Juvenna/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Juvenna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = aleonov.Juvenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F40A876E250AA3FA00364E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Juvenna/Juvenna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Juvenna/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Juvenna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = aleonov.Juvenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F40A8770250AA3FA00364E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JuvennaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = aleonov.JuvennaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juvenna.app/Contents/MacOS/Juvenna";
+			};
+			name = Debug;
+		};
+		F40A8771250AA3FA00364E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JuvennaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = aleonov.JuvennaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juvenna.app/Contents/MacOS/Juvenna";
+			};
+			name = Release;
+		};
+		F40A8773250AA3FA00364E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JuvennaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aleonov.JuvennaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Juvenna;
+			};
+			name = Debug;
+		};
+		F40A8774250AA3FA00364E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JuvennaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aleonov.JuvennaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Juvenna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40A873E250AA3F600364E0F /* Build configuration list for PBXProject "Juvenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40A876A250AA3FA00364E0F /* Debug */,
+				F40A876B250AA3FA00364E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40A876C250AA3FA00364E0F /* Build configuration list for PBXNativeTarget "Juvenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40A876D250AA3FA00364E0F /* Debug */,
+				F40A876E250AA3FA00364E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40A876F250AA3FA00364E0F /* Build configuration list for PBXNativeTarget "JuvennaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40A8770250AA3FA00364E0F /* Debug */,
+				F40A8771250AA3FA00364E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40A8772250AA3FA00364E0F /* Build configuration list for PBXNativeTarget "JuvennaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40A8773250AA3FA00364E0F /* Debug */,
+				F40A8774250AA3FA00364E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40A873B250AA3F600364E0F /* Project object */;
+}
