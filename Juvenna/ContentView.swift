@@ -7,14 +7,27 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        WebView(startPage: "https://duckduckgo.com/")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
+struct WebView: NSViewRepresentable {
+    var startPage: String
+    func makeNSView(context: Context) -> WKWebView {
+        let view = WKWebView()
+        if let startPageUrl = URL(string: startPage) {
+            view.load(URLRequest(url: startPageUrl))
+        }
+        return view
+    }
+    func updateNSView(_ view: WKWebView, context: Context) {
+    }
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
